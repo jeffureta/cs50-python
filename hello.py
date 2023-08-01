@@ -1,11 +1,7 @@
-# Ask user for name
-name = input('Please enter your name: ')
-
-# Strip any whitespace from the name
-name = name.strip()
-
-# Capitalize the first letter of the first and last name
-name = name.title()
+# Ask user for name, remove any leading or trailing spaces, 
+# and capitalize the first letter of the first and last name...
+# and then store the name in a variable called name 
+name = input('Please enter your name: ').strip().title()
 
 # Print out hello and name
 
