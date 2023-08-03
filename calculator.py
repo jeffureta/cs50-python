@@ -3,8 +3,8 @@
 x = float(input('Enter a number: '))
 y = float(input('Enter another number: '))
 
-# round the sum of x and y to the nearest integer
-z = round(x + y)
+# round the quotient of x and y to 2 decimal places
+z = round(x / y, 2)
 
-# print out the sum of x and y with a comma for a thousands separator
-print(f'{z:,}')
+# print out the quotient of x and y
+print(z)
