@@ -4,4 +4,4 @@ x = float(input('Enter a number: '))
 y = float(input('Enter another number: '))
 
 # add the two numbers together
-print(f'{x} + {y} = {z}')
+print(f'{x} + {y} = {x + y}')
