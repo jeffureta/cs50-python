@@ -3,5 +3,8 @@
 x = float(input('Enter a number: '))
 y = float(input('Enter another number: '))
 
-# add the two numbers together
-print(f'{x} + {y} = {x + y}')
+# round the sum of x and y to the nearest integer
+z = round(x + y)
+
+# print out the equation using format strings
+print(f'{x} + {y} = {z}')
