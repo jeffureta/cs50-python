@@ -1,15 +1,11 @@
-# Ask user for name, remove any leading or trailing spaces, 
-# and capitalize the first letter of the first and last name...
-# and then store the name in a variable called name 
-name = input('Please enter your name: ').strip().title()
+def hello(name):
+    '''
+    Prints out a greeting to the user
+    '''
+    print(f"Hello, {name}!")
 
-# Print out hello and name
+# prompt the user for their name    
+name = input('Enter your name: ')
 
-# Will concat the string
-# print('Hello, ' + name)
-
-# Will print out the string using multiple arguments
-# print('Hello', name, sep=', ')
-
-# Will print out the string using format strings
-print(f'Hello, {name}!')
+# call the hello function
+hello(name)
